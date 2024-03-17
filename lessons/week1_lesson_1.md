@@ -86,3 +86,18 @@ pip install git+https://github.com/BreezeWhite/oemer
 
 The easiest way to run python and to experiment data science.
 
+To run Jupyter Notebook:
+
+1. In a new terminal window, activate your `omr` environment.
+
+2. Launch jupyter notebook:
+
+```bash
+jupyter notebook
+```
+
+A new window will open in your browser, folder and files. You can now create a notebook to execute python code.
+
+<p align="center">
+<img src="assets/jupyter.png" width="100%"/>
+</p>
