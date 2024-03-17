@@ -18,7 +18,7 @@ Conda and its environments are a very good way to safely install and use python 
 
 2. Open a **terminal**, execute the following command and **follow instructions**:
 
-```bash
+```console
 bash path/to/miniconda/installer
 ```
 
@@ -33,17 +33,28 @@ bash path/to/miniconda/installer
 1. Open a **terminal**.
 2. Create an environment named `omr` with the following command:
 
-```bash
+```console
 conda create --name omr python=3.8
 ```
 
 Note: `python=3.8` will install the 3.8 version of Python. You can of course force installation of an other version (`python=3.7`, `python=3.11`, etc.).
 
+3. Create an environment named `labelstudio` with the following command:
 
-3. Once the environment is made, activate your environment with:
+```console
+conda create --name labelstudio python=3.11
+```
 
-```bash
+4. Once the environment is made, activate your environment with:
+
+```console
 conda activate omr
+```
+
+or
+
+```console
+conda activate labelstudio
 ```
 
 ✅ Do you see written `(omr)` on the left of your Terminal ? If yes, congratulations, you are now in a safe place to work.
@@ -56,35 +67,36 @@ conda activate omr
 
 2. Install python dependencies needed for the workshop:
 
-```bash
+```console
 pip install lxml
 ```
-```bash
+```console
 pip install midi2audio
 ```
-```bash
+```console
 pip install ultralytics
 ```
-```bash
+```console
 pip install muspy
 ```
-```bash
+```console
 pip install label-studio
 ```
-```bash
-pip install label-studio
-```
-```bash
+```console
 conda install -c conda-forge jupyterlab
 ```
-```bash
+```console
 conda install -c conda-forge notebook
 ```
-```bash
+```console
 pip install git+https://github.com/BreezeWhite/oemer
 ```
 
 ✅ No installation problem? Good, you are now ready to do Optical Music Recognition.
 
 ❌ An error occured during the installation of a package. 💡 Copy paste on Google your error to see if someone has a solution on stackoverflow.
+
+## Jupyter Notebook
+
+The easiest way to run python and to experiment data science.
 
