@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-1. [Lesson 1](lessons/week1_lesson_1.md):
+1. [Lesson 1](../lessons/week1_lesson_1.md):
     * Introduction to the workshop and to Artificial Intelligence;
     * Setting up the working environment for DataScience;
     * Python basics
