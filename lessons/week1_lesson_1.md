@@ -39,22 +39,10 @@ conda create --name omr python=3.8
 
 Note: `python=3.8` will install the 3.8 version of Python. You can of course force installation of an other version (`python=3.7`, `python=3.11`, etc.).
 
-3. Create an environment named `labelstudio` with the following command:
-
-```bash
-conda create --name labelstudio python=3.11
-```
-
-4. Once the environment is made, activate your environment with:
+3. Once the environment is made, activate your environment with:
 
 ```bash
 conda activate omr
-```
-
-or
-
-```bash
-conda activate labelstudio
 ```
 
 ✅ Do you see written `(omr)` on the left of your Terminal ? If yes, congratulations, you are now in a safe place to work.
@@ -87,13 +75,6 @@ conda install -c conda-forge notebook
 ```
 ```bash
 pip install git+https://github.com/BreezeWhite/oemer
-```
-
-3. Activate your `labelstudio` environment.
-
-4. Install python dependencies needed for the workshop:
-```bash
-pip install label-studio
 ```
 
 
