@@ -17,6 +17,6 @@ This Git contains main code and tasks for the TUMO workshop "Reading and computi
 
 **Data**: A specific focus will be made on Armenian music scores (mainly from Komitas).
 
-Full instructions: see [week 1]().
+Full instructions: see [week 1](week1/README.md).
 
 ## Week 2: Music Generation using AI (Generative Networks)
