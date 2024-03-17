@@ -18,7 +18,7 @@ Conda and its environments are a very good way to safely install and use python 
 
 2. Open a **terminal**, execute the following command and **follow instructions**:
 
-```console
+```bash
 bash path/to/miniconda/installer
 ```
 
@@ -33,7 +33,7 @@ bash path/to/miniconda/installer
 1. Open a **terminal**.
 2. Create an environment named `omr` with the following command:
 
-```console
+```bash
 conda create --name omr python=3.8
 ```
 
@@ -41,19 +41,19 @@ Note: `python=3.8` will install the 3.8 version of Python. You can of course for
 
 3. Create an environment named `labelstudio` with the following command:
 
-```console
+```bash
 conda create --name labelstudio python=3.11
 ```
 
 4. Once the environment is made, activate your environment with:
 
-```console
+```bash
 conda activate omr
 ```
 
 or
 
-```console
+```bash
 conda activate labelstudio
 ```
 
@@ -67,30 +67,35 @@ conda activate labelstudio
 
 2. Install python dependencies needed for the workshop:
 
-```console
+```bash
 pip install lxml
 ```
-```console
+```bash
 pip install midi2audio
 ```
-```console
+```bash
 pip install ultralytics
 ```
-```console
+```bash
 pip install muspy
 ```
-```console
-pip install label-studio
-```
-```console
+```bash
 conda install -c conda-forge jupyterlab
 ```
-```console
+```bash
 conda install -c conda-forge notebook
 ```
-```console
+```bash
 pip install git+https://github.com/BreezeWhite/oemer
 ```
+
+3. Activate your `labelstudio` environment.
+
+4. Install python dependencies needed for the workshop:
+```bash
+pip install label-studio
+```
+
 
 ✅ No installation problem? Good, you are now ready to do Optical Music Recognition.
 
