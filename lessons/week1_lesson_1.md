@@ -6,6 +6,14 @@ Objectives:
 * Learn to manage python environments for datascience;
 * Learn to code and use Python functions.
 
+## Deep learning experiences
+
+[Level 1](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=25&networkShape=&seed=0.90161&showTestData=false&discretize=false&percTrainData=50&x=false&y=false&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&playButton_hide=false&showTestData_hide=false&batchSize_hide=true&stepButton_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&learningRate_hide=false&regularizationRate_hide=true&dataset_hide=true)
+
+[Level 2](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.86166&showTestData=false&discretize=false&percTrainData=50&x=false&y=false&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&playButton_hide=false&showTestData_hide=false&batchSize_hide=true&stepButton_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&learningRate_hide=true&regularizationRate_hide=true&dataset_hide=true)
+
+[Level 3](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=25&networkShape=&seed=0.62001&showTestData=false&discretize=false&percTrainData=50&x=false&y=false&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&playButton_hide=false&showTestData_hide=false&batchSize_hide=true&stepButton_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&learningRate_hide=false&regularizationRate_hide=true&dataset_hide=true)
+
 ## Conda environments
 
 Conda and its environments are a very good way to safely install and use python libraries on your computer. It's highly recommended to use Conda to avoid any system incompatibilities.
