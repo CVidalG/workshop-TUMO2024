@@ -7,12 +7,15 @@
     * Setting up the working environment for DataScience;
     * Python basics
 
-2. Lesson 2:
+2. [Lesson 2](../lessons/week1_lesson_2.md):
     * Computer Vision (object detection, semantic segmentation);
     * Music note classification;
-    * Labeling setup.
+    * Labeling setup;
+    * Start labeling.
 
 3. Lesson 3:
+    * Object detection labeling using Label Studio;
+    * 
 
 4. Lesson 4:
 
