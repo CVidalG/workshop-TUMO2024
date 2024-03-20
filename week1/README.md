@@ -13,9 +13,10 @@
     * Labeling setup;
     * Start labeling.
 
-3. Lesson 3:
+3. [Lesson 3](../lessons/week1_lesson_3.md):
     * Object detection labeling using Label Studio;
-    * 
+    * Object detection model training;
+    * Classification in Computer Vision.
 
 4. Lesson 4:
 
