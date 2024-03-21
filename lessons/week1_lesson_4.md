@@ -7,6 +7,7 @@ Objectives:
 * Coding a data split function
 * Training a classification model
 
+[ACCESS TO WORKSHOP GOOGLE DRIVE](https://drive.google.com/drive/folders/1ND3OpU4lX-P_aHAl6CWa-ZQZTlumOdGD?usp=sharing)
 
 ## Preliminary results of lesson 3 with a small dataset
 
