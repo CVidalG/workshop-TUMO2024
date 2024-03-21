@@ -18,11 +18,14 @@ results = model.train(data='path/to/config.yaml') # default configuration
 
 Training parameters we can use:
 * `imgsz`: to change input image size
-* `dropout`: to use dropout to avoid overfitting
+* `dropout`: to avoid overfitting
+* `epochs`: to increase/decrease number of epochs
+* `lr0`: to change initial learning rate
 
 For a full list of parameters:
 [Click to see YOLOv8 documentation](https://docs.ultralytics.com/modes/train/#train-settings)
 
+💡 Maybe have a look to data augment parameters? Something relevant for the task?
 
 **Prediction**:
 ```python
