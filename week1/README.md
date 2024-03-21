@@ -18,6 +18,10 @@
     * Object detection model training;
     * Classification in Computer Vision.
 
-4. Lesson 4:
+4. [Lesson 4](../lessons/week1_lesson_4.md):
+    * Object detection model training;
+    * Object detection model evaluation;
+    * Classification in Computer Vision;
+    * Python code to export / split data.
 
 5. Lesson 5:
