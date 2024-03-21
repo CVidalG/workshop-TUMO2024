@@ -40,6 +40,17 @@ Prediction parameters we can use:
 * `save_txt`: to export object coordinates
 * `save_crop`: to crop objects
 
+**Postprocessing Python task**: Need to sort detections from top-to-bottom
+
+Some tips:
+1. predict `lines` on a test image;
+2. load in python the txt file with detected bouding-boxes;
+3. parse the txt file to extract bouding-boxes: each line correspond to a detection `class_id x y width height`
+4. convert `x` `y` `width` and `height` into a shapely compatible format
+5. extract centroïd from shapely object
+6. sort detections according to centroïds, from top to bottom
+7. crop and export image with relevant filename (e.g. : 1_..., 2_...) using PILLOW
+
 
 ## Datasets for Image Classification using YOLO
 
