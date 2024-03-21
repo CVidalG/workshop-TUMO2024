@@ -25,3 +25,6 @@
     * Python code to export / split data.
 
 5. Lesson 5:
+   * Visit of the Komitas Museum;
+   * Audio file generation with Python and OMR pre-trained model;
+   * Final audio remixing.
