@@ -24,9 +24,16 @@
     * Classification in Computer Vision;
     * Python code to export / split data.
 
-5. Lesson 5:
+5. [Lesson 5](../lessons/week1_lesson_5.md):
    * Visit of the Komitas Museum;
    * Models evaluation;
    * Classification in Computer Vision;
    * First try of audio file generation with Python and OMR pre-trained model;
    * Final audio remixing.
+
+
+## Datasets and Google Drive
+
+[Workshop GOOGLE DRIVE](https://drive.google.com/drive/folders/1ND3OpU4lX-P_aHAl6CWa-ZQZTlumOdGD?usp=sharing)
+
+[Komitas Dataset on GOOGLE DRIVE](https://drive.google.com/drive/folders/1T01oMvwHWQ0y3VtXUr3DARhs-LJZwnyJ?usp=sharing)
