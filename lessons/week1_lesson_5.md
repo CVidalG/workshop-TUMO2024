@@ -51,7 +51,7 @@ The `runs` folder is localized at the same level than your notebook.
 ### Ground Truth vs Prediction (validation dataset)
 
 <p align="center">
-<img src="assets/val_batch2_labels.jpg" width="50%"/> <img src="assets/val_batch2_pred.jpg" width="50%"/>
+<img src="assets/val_batch2_labels.jpg" width="40%"/> <img src="assets/val_batch2_pred.jpg" width="40%"/>
 </p>
 
 ### Example of prediction
