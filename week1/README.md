@@ -26,5 +26,7 @@
 
 5. Lesson 5:
    * Visit of the Komitas Museum;
-   * Audio file generation with Python and OMR pre-trained model;
+   * Models evaluation;
+   * Classification in Computer Vision;
+   * First try of audio file generation with Python and OMR pre-trained model;
    * Final audio remixing.
