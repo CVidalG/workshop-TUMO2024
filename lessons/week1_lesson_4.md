@@ -12,7 +12,7 @@ Objectives:
 ## Preliminary results of lesson 3 with a small dataset
 
 <p align="center">
-<img src="assets/line_detection_output.png" width="100%"/>
+<img src="assets/line_detection_output.jpg" width="100%"/>
 </p>
 
 **Training**:
