@@ -119,3 +119,10 @@ Theoritical presentation.
 
 
 
+## WebApp development using YOLO and streamlit
+
+In omr environment :
+
+```bash
+pip install streamlit
+```
