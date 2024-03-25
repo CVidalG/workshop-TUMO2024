@@ -21,4 +21,16 @@ Full instructions: see [week 1](week1/README.md).
 
 ## Week 2: Music Generation using AI (Generative Networks)
 
+**Goal**:
+- Generating audio music files from music scores
+- Music Generation using GAN and style transfer
 
+**Objectives**:
+- Understand how generative networks work;
+- Understand object classification;
+- Training generative networks;
+- Building webapp for demo purposes.
+
+**Data**: A specific focus will be made on Armenian music.
+
+Full instructions: see [week 2](week2/README.md).
