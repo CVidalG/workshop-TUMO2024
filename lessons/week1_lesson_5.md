@@ -1,4 +1,4 @@
-# Lesson 4 (week 1)
+# Lesson 5 (week 1)
 
 Objectives:
 
@@ -60,13 +60,40 @@ The `runs` folder is localized at the same level than your notebook.
 <img src="assets/prediction.jpg" width="75%"/>
 </p>
 
+## OMR inference
 
-## Datasets for Image Classification using YOLO
+### Detecting and predicting notes
+
+Input: Image
+
+Output: musicXML
+
+```bash
+oemer <img_path>
+```
+
+### Converting to MIDI file
+
+Input: musicXML
+
+Output: MIDI
+
+```bash
+python -c "import muspy ; music = muspy.read_musicxml('/path/to/musicXML/file') ; muspy.write_midi('/path/to/export/midi/file', music, backend='pretty_midi')"
+```
+
+### Using GarageBand to remix it a bit
+
+TBD
+
+## Image Classification using YOLO
 
 ```python
 model = YOLO('yolov8n-cls') # classification
 results = model.train() # with params of your choice
 ```
+
+### Datasets
 
 **Dataset 1**: the CVC-MUSCIMA Database - writer identification task
 [Download link](http://datasets.cvc.uab.es/muscima/CVCMUSCIMA_WI.zip)
