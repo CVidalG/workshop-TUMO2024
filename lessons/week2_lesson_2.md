@@ -12,6 +12,65 @@ See Week 2, lesson 1, for the base code.
 
 Extend the code by adding class filtering.
 
+```python
+import streamlit as st
+from PIL import Image
+from ultralytics import YOLO
+
+
+def load_model(model_name):
+    model = YOLO(model_name)
+    return model
+
+
+def main():
+    st.header("My TUMO webapp")
+    st.sidebar.header("Settings")
+
+
+    demo_images = {
+        "Image 1": "/Users/user/Downloads/score_1.jpg",
+        "Image 2": "/Users/user/Downloads/score_2.jpg",
+        "Image 3": "/Users/user/Downloads/score_3.png"
+    }
+
+    model_name = st.sidebar.selectbox("Select Model", ["yolov8n", 'my_model.pt'])
+    model = load_model(model_name)
+
+    classes_list = ['black', 'key', 'line', 'piano', 'tone', 'voice', 'white']
+    selected_classes = st.sidebar.multiselect('select classes to predict', classes_list, default=classes_list)
+    selected_classes_ids = [classes_list.index(cls) for cls in selected_classes]
+
+    confidence = st.sidebar.slider("Confidence Threshold", 0.0, 1.0, 0.5, 0.01)
+
+
+    demo_image_choice = st.sidebar.selectbox('Choose a demo image', list(demo_images.keys()))
+    demo_image_path = demo_images[demo_image_choice]
+    demo_image = Image.open(demo_image_path).convert("RGB")
+
+
+    uploaded_file = st.sidebar.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
+
+    if uploaded_file is not None:
+        uploaded_image = Image.open(uploaded_file).convert("RGB")
+    else:
+        uploaded_image = demo_image
+
+    if st.sidebar.button('Detect Objects'):
+        res = model.predict(uploaded_image, conf=confidence, imgsz=640, classes=selected_classes_ids)
+
+        col1, col2 = st.columns(2)
+        with col1:
+            st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+        with col2:
+            st.image(res[0].plot(labels=False), caption='Detected Image', use_column_width=True)
+    else:
+        st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+
+if __name__ == "__main__":
+    main()
+```
+
 ## Music Generation
 
 Theoritical presentation.
