@@ -4,9 +4,13 @@
 
 1. [Lesson 1](../lessons/week2_lesson_1.md):
     * Music generation using OMR and YOLO models;
-    * Music sheet classification;
-    * Building a dataset for music generation;
     * Webapp development using Python.
+
+1. [Lesson 2](../lessons/week2_lesson_2.md):
+    * Music sheet classification;
+    * Webapp development using Python;
+    * Building a dataset for music generation;
+    * Training a music generation model.
 
 
 ## Datasets and Google Drive
