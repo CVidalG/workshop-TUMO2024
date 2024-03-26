@@ -49,6 +49,30 @@ and finally:
 git clone https://github.com/rncm-prism/prism-samplernn
 ```
 
+### Create your dataset
+
+We need the following :
+
+```bash
+pip install yt-dlp
+```
+
+```bash
+conda install conda-forge::ffmpeg
+```
+
+To download and convert to wav file :
+
+```bash
+yt-dlp [youtube_id] -x --audio-format wav --audio-quality 9 
+```
+
+Optional : to download and convert to wav file, with list.bat containing a list of YT urls
+
+```bash
+yt-dlp -x --audio-format wav --audio-quality 9 -i -a list.bat
+```
+
 ### Chunk creation
 
 ```bash
