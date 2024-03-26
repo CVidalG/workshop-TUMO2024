@@ -111,13 +111,6 @@ def split_data(source, train, val, test, initial_split_size=0.8, test_size=0.05)
 
 ```
 
-## Music Generation
-
-Theoritical presentation.
-
-*Requirements*: YouTube musics, without noise (e.g. clapping, etc.)
-
-
 
 ## WebApp development using YOLO and streamlit
 
@@ -125,4 +118,45 @@ In omr environment :
 
 ```bash
 pip install streamlit
+```
+
+### Basic image detection app
+
+```python
+
+import streamlit as st
+from PIL import Image
+from ultralytics import YOLO
+
+
+def load_model(model_name):
+    model = YOLO(model_name)
+    return model
+
+
+def main():
+    st.header("My TUMO webapp")
+    st.sidebar.header("Settings")
+
+    model_name = st.sidebar.selectbox("Select Model", ["yolov8n"])
+    model = load_model(model_name)
+    confidence = st.sidebar.slider("Confidence Threshold", 0.0, 1.0, 0.5, 0.01)
+    uploaded_file = st.sidebar.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
+
+    if uploaded_file is not None:
+        uploaded_image = Image.open(uploaded_file).convert("RGB")
+
+        if st.sidebar.button('Detect Objects'):
+            res = model.predict(uploaded_image, conf=confidence, imgsz=640)
+
+            col1, col2 = st.columns(2)
+            with col1:
+                st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+            with col2:
+                st.image(res[0].plot(), caption='Detected Image', use_column_width=True)
+        else:
+            st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+
+if __name__ == "__main__":
+    main()
 ```
