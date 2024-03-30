@@ -1,9 +1,13 @@
 # TUMO workshop - Reading and computing music with AI
 
+<p align="center">
+<img src="lessons/webapp/assets/OIG1vE3TF0tjVWcQOy3k_PWL.jpeg" width="20%"/>
+</p>
+
 This Git contains main code and tasks for the TUMO workshop "Reading and computing music with AI", led by Chahan Vidal-Gorène (Calfa) and Baptiste Queuche (Calfa).
 
 <p align="center">
-<img src="assets/Tumo-Logo.jpg" width="20%"/>  <img src="assets/logo-noir-texte-droite.png" width="20%"/>
+<img src="assets/Tumo-Logo.png" width="20%"/>  <img src="assets/logo-noir-texte-droite.png" width="20%"/>
 </p>
 
 ## Week 1: Optical Music Recognition (OMR)
@@ -34,3 +38,7 @@ Full instructions: see [week 1](week1/README.md).
 **Data**: A specific focus will be made on Armenian music.
 
 Full instructions: see [week 2](week2/README.md).
+
+## Final project
+
+Download [final webapp](lessons/webapp/) with models running.
