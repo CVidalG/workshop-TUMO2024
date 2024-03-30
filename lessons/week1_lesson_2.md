@@ -48,6 +48,3 @@ pip install label-studio
 ```bash
 label-studio
 ```
-
-## The Komitas Dataset
-[Download link](https://drive.google.com/drive/folders/1T01oMvwHWQ0y3VtXUr3DARhs-LJZwnyJ?usp=sharing)

@@ -22,9 +22,12 @@
     * Model Evaluation;
     * Music sheet classification.
 
+5. [Lesson 5](../lessons/week2_lesson_5.md):
+    * Make everything functionning and final presentation.
 
-## Datasets and Google Drive
+### Resources
 
-[Workshop GOOGLE DRIVE](https://drive.google.com/drive/folders/1ND3OpU4lX-P_aHAl6CWa-ZQZTlumOdGD?usp=sharing)
+Week built thanks to:
+[SampleRNN: An Unconditional End-to-End Neural Audio Generation Model](https://arxiv.org/abs/1612.07837)
 
-[Komitas Dataset on GOOGLE DRIVE](https://drive.google.com/drive/folders/1T01oMvwHWQ0y3VtXUr3DARhs-LJZwnyJ?usp=sharing)
+Tensorflow version by [PRiSM](https://github.com/rncm-prism/prism-samplernn)

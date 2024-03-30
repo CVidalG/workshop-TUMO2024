@@ -29,9 +29,9 @@ def main():
 
 
     demo_images = {
-        "Image 1": "/Users/user/Downloads/score_1.jpg",
-        "Image 2": "/Users/user/Downloads/score_2.jpg",
-        "Image 3": "/Users/user/Downloads/score_3.png"
+        "Image 1": "score_1.jpg",
+        "Image 2": "score_2.jpg",
+        "Image 3": "score_3.png"
     }
 
     model_name = st.sidebar.selectbox("Select Model", ["yolov8n", 'my_model.pt'])

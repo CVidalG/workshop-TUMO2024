@@ -19,6 +19,8 @@ This Git contains main code and tasks for the TUMO workshop "Reading and computi
 - Discover the main tasks in computer vision and their application to music;
 - Learn how to build an AI project, annotate documents and train/evaluate a model.
 
+**Technical objectives**: learning conda, YOLO, labelstudio, oemer.
+
 **Data**: A specific focus will be made on Armenian music scores (mainly from Komitas).
 
 Full instructions: see [week 1](week1/README.md).
@@ -34,6 +36,8 @@ Full instructions: see [week 1](week1/README.md).
 - Understand object classification;
 - Training generative networks;
 - Building webapp for demo purposes.
+
+**Technical objectives**: learning streamlit, tensorflow, prismRNN.
 
 **Data**: A specific focus will be made on Armenian music.
 

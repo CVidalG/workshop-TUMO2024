@@ -6,9 +6,6 @@ Objectives:
 * Coding a data split function
 * Training an object dectection model and evaluating it
 
-## The Komitas Dataset
-[Download link](https://drive.google.com/drive/folders/1T01oMvwHWQ0y3VtXUr3DARhs-LJZwnyJ?usp=sharing)
-
 ### Annotation Guidelines
 
 <p align="center">

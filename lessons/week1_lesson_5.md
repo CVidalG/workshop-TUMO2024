@@ -7,8 +7,6 @@ Objectives:
 * Using a music software to remix the generated audio
 * Training a classification model
 
-[ACCESS TO WORKSHOP GOOGLE DRIVE](https://drive.google.com/drive/folders/1ND3OpU4lX-P_aHAl6CWa-ZQZTlumOdGD?usp=sharing)
-
 ## Results of lesson 4 with the group dataset
 
 All results and relevant informations are in the `runs/detect/train_ID` folder.
