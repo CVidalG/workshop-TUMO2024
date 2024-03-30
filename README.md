@@ -1,7 +1,7 @@
 # TUMO workshop - Reading and computing music with AI
 
 <p align="center">
-<img src="lessons/webapp/assets/OIG1vE3TF0tjVWcQOy3k_PWL.jpeg" width="20%"/>
+<img src="lessons/webapp/assets/OIG1vE3TF0tjVWcQOy3k_PWL.jpeg" width="50%"/>
 </p>
 
 This Git contains main code and tasks for the TUMO workshop "Reading and computing music with AI", led by Chahan Vidal-Gorène (Calfa) and Baptiste Queuche (Calfa).
