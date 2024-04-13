@@ -21,7 +21,7 @@ def music_detection():
     }
 
     model_name = st.sidebar.selectbox("Select Model", ['MusicDetection_model.pt', "yolov8n"])
-    model = load_model(model_name)
+    model = load_model('models/' + model_name)
 
     classes_list = ['black', 'key', 'line', 'piano', 'tone', 'voice', 'white']
     selected_classes = st.sidebar.multiselect('select classes to predict', classes_list, default=classes_list)
